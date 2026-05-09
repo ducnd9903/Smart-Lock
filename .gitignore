@@ -1,0 +1,30 @@
+build/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+compile_commands.json
+Testing/
+.ninja_deps
+.ninja_log
+
+# ESP-IDF generated artifacts
+sdkconfig.old
+sdkconfig.save
+sdkconfig.*.tmp
+flasher_args.json
+flash_project_args.json
+*.bin
+*.elf
+*.map
+*.hex
+*.d
+*.o
+*.log
+
+# Editor/OS
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db

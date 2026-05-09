@@ -340,15 +340,7 @@ static void lcdTask(void *pvParameters) {
     
     lcd_init();
     lcd_clear();
-    
-    // lcd_put_cursor(0, 0);
-    // lcd_send_string("Smart Lock");
-    // vTaskDelay(pdMS_TO_TICKS(2000));
-    
-    // lcd_clear();
-    // lcd_put_cursor(0, 0);
-    // lcd_send_string("Ready...");
-    
+
     printf("LCD task started\n");
     
     while (1) {
